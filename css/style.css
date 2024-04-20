@@ -9987,3 +9987,26 @@ h6,
   justify-content: center;
   align-items: center;
 }
+
+
+
+.animated-div {
+  width: 100px;
+  height: 100px;
+  animation: slide 3s infinite alternate; /* تطبيق تحريك باستخدام الرسوم المتحركة CSS */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* البدء من الوضعية الأصلية */
+  }
+  100% {
+    transform: translateX(80px); /* التحريك إلى اليمين بمقدار 200 بكسل */
+  }
+}
+.boxshado{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.text-color{
+  color: #089e86 ;
+}
