@@ -8011,6 +8011,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+ 
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8264,6 +8265,7 @@ button.bg-dark:focus {
   .mt-sm-n2,
   .my-sm-n2 {
     margin-top: -0.5rem !important;
+    
   }
   .mr-sm-n2,
   .mx-sm-n2 {
@@ -9981,4 +9983,43 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.d-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.animated-div {
+  width: 100px;
+  height: 100px;
+  animation: slide 3s infinite alternate; /* تطبيق تحريك باستخدام الرسوم المتحركة CSS */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* البدء من الوضعية الأصلية */
+  }
+  100% {
+    transform: translateX(80px); /* التحريك إلى اليمين بمقدار 200 بكسل */
+  }
+}
+.boxshado{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.text-color{
+  color: #089e86 ;
+}
+/* CSS for desktop */
+
+/* Media query for mobile devices */
+/* Styles for desktop devices */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+ .font-23{
+  font-size: 23px;
+ }
 }
